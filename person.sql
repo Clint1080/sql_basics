@@ -38,7 +38,7 @@ SELECT * FROM person
 WHERE age = 18;
 
 SELECT * FROM person
-WHERE age BETWEEN 20 AND 30;
+WHERE age < 20 or > 30;
 
 -- ask about this   IS NOT 
 SELECT * FROM person
