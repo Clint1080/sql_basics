@@ -14,4 +14,4 @@ SELECT * FROM employee
 WHERE reports_to = 2;
 
 SELECT COUNT(city) FROM employee
-Where city = 'Lethbridge';
+WHERE city = 'Lethbridge';
